@@ -60,12 +60,13 @@
 
                 <h1 class="page-main-title">Effective Solutions for Your Business</h1>
                 <button class="modal-open-btn" type="button" data-modal-open>Order Service</button>
+
             </div>
 
         </section>
 
 
-        <!--Our Advantages Section-->
+        <!-- Our Advantages Section -->
 
         <section class="our-advantages-section section">
 
@@ -515,6 +516,83 @@
           <use href="./images/icons.svg#icon-close-icon"></use>
         </svg>
       </button>
+
+
+                <form class="contact-form">
+                 
+                 <p class="modal-text">Leave your contacts and we will call you back</p>
+                  <label class="contact-form-field-wrapper">
+                   <span class="contact-form-field-desc">Name</span>  
+                   <span class="contact-form-input-wrapper">
+                   <input 
+                    class="contact-form-input" 
+                    type="text" 
+                    name="user_first_name" 
+                    required 
+                    pattern="[a-zA-Za-яА-ЯіІїЇґҐєЄ']+" />
+                    <span class="contact-form-input-icon">
+                        <svg class="contact-form-input-icon-svg" aria-label="company logo" width="104" height="56">
+                            <use href="./images/icons.svg#icon-person">
+                            </use>
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  </label>
+
+                   <label class="contact-form-field-wrapper">
+                    <span class="contact-form-field-desc">Phone</span>
+                    <span class="contact-form-input-wrapper">
+                      <input 
+                    class="contact-form-input" 
+                    type="tel" 
+                    name="user_tel" 
+                    required 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-+[0-9]{2}" 
+                    title="xxx-xxx-xx-xx" />
+                    <span class="contact-form-input-icon">
+                      <svg class="contact-form-input-icon-svg" aria-label="company logo" width="104" height="56">
+                          <use href="./images/icons.svg#icon-phone">
+                          </use>
+                      </svg>
+                    </span>
+                  </span>
+                  </span>
+                  </label>
+                   
+                   <label class="contact-form-field-wrapper">
+                    <span class="contact-form-field-desc">Email</span>
+                    <span class="contact-form-input-wrapper">
+                    <input class="contact-form-input" 
+                    type="email" 
+                    name="user_mail" 
+                    required 
+                    pattern="[a-z-a-@.]+"
+                    title="xxx@xxx.com" />
+                    <span class="contact-form-input-icon">
+                      <svg class="contact-form-input-icon-svg" aria-label="company logo" width="104" height="56">
+                          <use href="./images/icons.svg#icon-email">
+                          </use>
+                      </svg>
+                    </span>
+                  </span>
+                  </span>
+                  </label>
+
+                   <label class="contact-form-field-wrapper">
+                    <span class="contact-form-field-desc">Comment</span>
+                    <textarea class="contact-form-message" name="user_message" placeholder="Your message"
+                    ></textarea>
+                  </label>
+                  <label class="contact-form-checkbox-wrapper">
+                    <input class="contact-form-checkbox" 
+                    type="checkbox" 
+                    name="user_policy" 
+                    required />
+                    I accept the terms and conditions of the Privacy Policy
+                  </label>
+                  <button type="submit" class="contact-form-submit">Send</button>
+                </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
