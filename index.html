@@ -537,11 +537,11 @@
       </button>
 
 
-                <form class="contact-form">
+                <div class="contact-form">
                  
                  <p class="modal-text">Leave your contacts and we will call you back</p>
                   <label class="contact-form-field-wrapper">
-                   <span cspanlass="contact-form-field-desc">Name</span>  
+                   <span class="contact-form-field-desc">Name</span>  
                    <span class="contact-form-input-wrapper">
                    <input 
                     class="contact-form-input" 
@@ -549,12 +549,12 @@
                     name="user_first_name" 
                     required 
                     pattern="[a-zA-Za-яА-ЯіІїЇґҐєЄ']+" />
-                    <div class="contact-form-input-icon">
+                    <span class="contact-form-input-icon">
                         <svg class="contact-form-input-icon-svg" aria-label="person icon">
                             <use href="./images/icons.svg#icon-person">
                             </use>
                         </svg>
-                      </div>
+                      </span>
                     </span>
                   
                   </label>
@@ -569,12 +569,12 @@
                     required 
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-+[0-9]{2}" 
                     title="xxx-xxx-xx-xx" />
-                    <div class="contact-form-input-icon">
+                    <span class="contact-form-input-icon">
                       <svg class="contact-form-input-icon-svg" aria-label="phone icon">
                           <use href="./images/icons.svg#icon-phone">
                           </use>
                       </svg>
-                    </div>
+                    </span>
                   </span>
                   
                   </label>
@@ -588,12 +588,12 @@
                     required 
                     pattern="[a-z-a-@.]+"
                     title="xxx@xxx.com" />
-                    <div class="contact-form-input-icon">
+                    <span class="contact-form-input-icon">
                       <svg class="contact-form-input-icon-svg" aria-label="email icon">
                           <use href="./images/icons.svg#icon-email">
                           </use>
                       </svg>
-                    </div>
+                    </span>
                   </span>
                   
                   </label>
@@ -616,7 +616,7 @@
                     
                   </label>
                   <button type="submit" class="contact-form-submit">Send</button>
-                </form>
+                </div>
     </div>
   </div>
   <script src="./js/modal.js"></script>
