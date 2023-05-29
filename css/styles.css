@@ -880,6 +880,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form-checkbox {
   appearance: none;
@@ -887,7 +888,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .contact-form-own-checkbox {
   fill: var(--page-background-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 
 }
 .contact-form-checkbox:checked + .checkbox-wrapper-text .checkbox-icon {
