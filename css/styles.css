@@ -831,8 +831,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   left: 16px;
   transform: translateY(-50%);
   display: block;
-  fill: var(--body-brand-color)
   
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-input:focus + .contact-form-input-icon {
@@ -887,7 +887,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 .contact-form-own-checkbox {
   fill: var(--light-mode-background-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 
 }
 .contact-form-checkbox:checked + .checkbox-wrapper-text .checkbox-icon {
